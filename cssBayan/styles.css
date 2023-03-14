@@ -20,6 +20,7 @@ body{
 }
 .accord-item{
     border-bottom: 1pt solid #376ea1;
+    border-radius: 1pt;
     padding-bottom: 2%;
     margin-bottom: 1%;
 }
