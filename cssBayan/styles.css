@@ -52,10 +52,6 @@ body{
     opacity: 0.5;
     transition: all .4s ease;
 }
-.accord-item:hover .accord-item-icon{
-    transition: all .4s ease;
-    transform: rotate(90deg);
-}
 
 @media( hover: hover ){
     .bayan-container:hover .accord-item-name{
@@ -67,6 +63,10 @@ body{
     .accord-item:hover .meme-img{
         width: 50%;
         height: 50%;
+    }
+    .accord-item:hover .accord-item-icon{
+        transition: all .4s ease;
+        transform: rotate(90deg);
     }
 }
 .accord-item:active .accord-item-icon{
